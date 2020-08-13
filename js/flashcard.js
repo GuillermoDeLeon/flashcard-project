@@ -1,5 +1,21 @@
-window.onload = function() {
-    alert( 'The page has finished loading!' );
-}
+$(document).ready(function() {
 
-console.log("hello world");
+    $('#status').val("hello willie");
+
+    $('h1').click(function() {
+        $(this).css('background-color', 'yellow');
+    });
+
+    $('p').dblclick(function() {
+        $('p').css('font-size', '28px');
+    });
+
+    $('li').hover(function() {
+            $('li').css('color', 'red');
+        },
+        function() {
+            $('li').css('color', '#000');
+        }
+    );
+
+});
