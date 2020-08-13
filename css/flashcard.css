@@ -1,10 +1,21 @@
+#status {
+    color: #CACACA;
+    font-weight: normal;
+}
 
 * {
     font-family: Helvetica, Arial, serif;
 }
+
 body {
     margin: 0 auto;
     width: 80%;
     color: purple
 }
 
+img {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 300px;
+}
