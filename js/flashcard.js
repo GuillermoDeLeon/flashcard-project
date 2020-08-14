@@ -1,6 +1,13 @@
 $(document).ready(function() {
 
-    $('#status').val("hello willie");
+    $("#status").val("hello willie");
+
+    $("#a").attr("src", 'img/innovatelogo.png');
+
+    $("#clickme").click(function() {
+        var userAnswer = $("#answer").val();
+        $("#status").html(userAnswer);
+    });
 
     $('h1').click(function() {
         $(this).css('background-color', 'yellow');
